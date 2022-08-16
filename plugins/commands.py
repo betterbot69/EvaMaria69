@@ -46,7 +46,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/mbhrequestgroup')
         ], [
             
-            InlineKeyboardButton('😊 About', callback_data='about')
+            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -90,7 +90,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/mbhrequestgroup')
         ], [
             
-            InlineKeyboardButton('😊 About', callback_data='about')
+            
         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
