@@ -417,9 +417,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         await query.answer('welcome')
-    
-        
-        )
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('🤖 Updates', url='https://t.me/+Hnxo-lpGfLEzOTc1'),
