@@ -43,7 +43,7 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
         ], [
-            InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/+Hnxo-lpGfLEzOTc1')
+            InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/moviesbighubgroup')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -87,7 +87,7 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
         ], [
-            InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/+Hnxo-lpGfLEzOTc1')
+            InlineKeyboardButton('➕ Join Our Movies Request Group ➕', url='https://t.me/moviesbighubgroup')
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
